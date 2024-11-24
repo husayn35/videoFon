@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Fonlar</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="#" class="logo-link">
+            <img
+              src="images/mainlogo.png"
+              alt="logo, editors logo"
+              class="logo"
+            />
+            EditorHub
+          </a>
+          <ul class="header-links">
+            <li><a href="#videos">Videolar</a></li>
+            <li><a href="#photos">rasmlar</a></li>
+            <li><a href="#">Musiqalar</a></li>
+            <li><a href="#">Aloqa</a></li>
+          </ul>
+
+          <label for="menu-button" class="label-desktop">
+            <img src="svg/menu.svg" alt="menu" class="menu-button" />
+          </label>
+          <input type="checkbox" id="menu-button" />
+          <div class="media-links">
+            <label for="menu-button" class="media-label">
+              <img
+                src="svg/closee.svg"
+                alt="closee"
+                class="menu-button-close"
+              />
+            </label>
+            <ul class="mobile-links">
+              <li><a href="#vidoes">Videolar</a></li>
+              <li><a href="#photos">rasmlar</a></li>
+              <li><a href="#">Musiqalar</a></li>
+              <li><a href="#">Aloqa</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="hero">
+          <div class="hero-body">
+            <img src="images/banner.webp" alt="cap cut editor" />
+            <h1>EditorHub dan rohatlaning!</h1>
+          </div>
+        </section>
+      </div>
+      <section id="videos">
+        <div class="container">
+          <h2 class="section-heading">videolar</h2>
+          <p class="section-text">
+            Siz videolar bo'limidan o'zingiz uchun kerakli orqa fon videoni
+            topib yuklab olsihingiz mumkin😊.
+          </p>
+          <div class="videolar">
+            <video
+              src="videos/slowmo.mp4"
+              controls
+              class="video"
+              download
+            ></video>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/index.js"></script>
+    <script src="js/loadingContents.js"></script>
+  </body>
+</html>

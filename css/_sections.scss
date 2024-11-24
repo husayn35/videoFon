@@ -1,0 +1,17 @@
+.section-heading {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.videolar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.video {
+  width: 200px;
+  //   object-fit: cover;
+  border-radius: 10px;
+}
