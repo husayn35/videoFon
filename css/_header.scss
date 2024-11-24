@@ -44,8 +44,8 @@ nav {
   position: fixed;
   width: 320px;
   background-color: rgb(255, 255, 255);
-  height: 100vh;
-  bottom: 0;
+  height: 90vh;
+  top: 0;
   right: 0;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -53,6 +53,7 @@ nav {
   background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
   transform: translate(320px);
   transition: 0.5s all ease-in-out;
+  z-index: 100;
 }
 .mobile-links {
   flex-direction: column;
