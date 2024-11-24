@@ -1,8 +1,0 @@
-{
-  "images": [
-    "images/mainlogo.png",
-    "https://example.com/image2.jpg",
-    "https://example.com/image3.jpg"
-  ],
-  "videos": ["videos/banner.mp4", "https://example.com/video2.mp4"]
-}
