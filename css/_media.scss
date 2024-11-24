@@ -34,4 +34,20 @@
   .section-text {
     font-size: 14px;
   }
+  .video-card {
+    width: 100%;
+    left: 0;
+    right: 0;
+    row-gap: 5px;
+  }
+  .video {
+    width: 100%;
+    border-radius: 0;
+  }
+  .video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-color: black; /* Video bo'sh bo'lsa qora fonda ko'rsatish */
+  }
 }

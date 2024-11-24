@@ -75,6 +75,7 @@ header {
   right: 0;
   padding: 10px;
   box-shadow: 0 0 12px #483f43;
+  z-index: 1000;
 }
 
 nav {
@@ -173,6 +174,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 40px;
+  row-gap: 40px;
 }
 
 .video {
@@ -188,6 +190,7 @@ nav {
 }
 
 .download-button {
+  content: "Videoni saqlab olish";
   width: 200px;
   padding: 10px;
   text-align: center;
@@ -235,5 +238,22 @@ nav {
   }
   .section-text {
     font-size: 14px;
+  }
+  .video-card {
+    width: 100%;
+    left: 0;
+    right: 0;
+    row-gap: 5px;
+  }
+  .video {
+    width: 100%;
+    border-radius: 0;
+  }
+  .video {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-color: black; /* Video bo'sh bo'lsa qora fonda ko'rsatish */
   }
 }/*# sourceMappingURL=style.css.map */
