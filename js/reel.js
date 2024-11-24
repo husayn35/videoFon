@@ -36,10 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const rect = card.getBoundingClientRect();
       const isInView = rect.top < window.innerHeight && rect.bottom >= 0; // video ko'rinadigan joyda ekanligini tekshirish
 
-      // video controls atributini qo'shish
-      video.setAttribute("controls", "controls");
-
-      // Agar video ko'rinadigan joyda bo'lsa, uni ijro qilish
+      // Video oynasini ko'rinishi
       if (isInView && !video.paused) {
         playVideo(video);
       } else {
